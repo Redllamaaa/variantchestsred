@@ -4,14 +4,14 @@
   "version": "${version}",
   "name": "Variant Chests",
   "description": "Chests for all wood types",
-  "authors": [ "Xanthian"],
+  "authors": [ "Xanthian, redllamaaa"],
   "license": "MIT",
   "icon": "assets/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["net.xanthian.variantchests.Initialise"],
-    "client": ["net.xanthian.variantchests.ClientInitialise"],
-    "fabric-datagen": ["net.xanthian.variantchests.DatagenInitialise"]
+    "main": ["net.redllamaaa.variantchests.Initialise"],
+    "client": ["net.redllamaaa.variantchests.ClientInitialise"],
+    "fabric-datagen": ["net.redllamaaa.variantchests.DatagenInitialise"]
   },
   "depends": {
     "fabricloader": ">=0.14.20",
